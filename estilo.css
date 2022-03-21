@@ -16,9 +16,11 @@ body {
 	padding: var(--padding-container);
 }
 
-.about__iconl{
-	width: 22px;
-	height: 22px;
+.about__icon1{
+    margin-top: 50px;
+	width: 200px;
+	height: 200px;
+    display: grid;
 }
 .hero{
 	width: 100%;
@@ -28,6 +30,10 @@ body {
 	position: relative;
 	display: grid;
 	grid-template-rows: 100px 1fr;
+}
+.about__iconl{
+    width: 100px;
+    height: 100px;
 }
 .hero::before{
 	content: "";
@@ -69,6 +75,9 @@ body {
 .nav__links{
 	color: #fff;
 	text-decoration: none;
+    display: grid;
+    
+
 }
 .nav__menu{
 	margin-left: auto;
@@ -101,9 +110,16 @@ body {
 }
 .hero__title{
 	font-size: 3rem;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    
+    
 }
 .hero__paragraph{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    
 }
 .about__main{
 	padding-top: 80px;
@@ -122,6 +138,7 @@ body {
 	text-decoration: none;
 	padding: 13px 30px;
 	border-radius: 20px;
+    
 }
 .info{
 	display: inline-block;
@@ -153,9 +170,7 @@ body {
 	overflow: hidden;
 	margin: 0 auto;
 }
-.about__icon{
-	width: 40px;
-}
+
 .knowledge{
 	background-color: #e5e5f7;
 	background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -279,7 +294,7 @@ body {
 
 /*footer*/
 .footer{
-	background-color: #1D293F;
+	background-color: rgb(216, 165, 37);
 }
 .footer__title{
 	font-weight: 300;
@@ -393,7 +408,6 @@ body {
     .hero__title{
         font-size: 2.5rem;
     }
-
 
     .about__main{
         gap: 2em;

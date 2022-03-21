@@ -16,13 +16,14 @@ body {
 }
 
 .about__iconl{
-	width: 22px;
-	height: 22px;
+	width: 32px;
+	height: 32px;
 }
 .hero{
 	position: relative;
 	display: grid;
     background-color: #001A49;
+    padding: 5px;
 }
 /* NAV*/
 .nav{
@@ -30,7 +31,6 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
-    background-color: #001A49;
 }
 .nav__title{
 	color: white;
@@ -114,11 +114,14 @@ body {
 }
 .knowledge__img{
 	width: 100%;
-	display: block;
+	display: grid;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
 }
 /*footer*/
 .footer{
-	background-color: #1D293F;
+	background-color: rgb(216, 165, 37);
 }
 .footer__title{
 	font-weight: 300;
