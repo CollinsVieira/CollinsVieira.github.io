@@ -385,6 +385,14 @@ body {
 .footer__img{
     width: 30px;
 }
+/*REGISTER*/
+.form__container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
 .form-register{
     margin: 0;
     padding: 0;
@@ -426,21 +434,8 @@ body {
     text-decoration: none;
     padding: 9px 20px 9px 20px;
 }
-.ok {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #1e6;
-	color: #fff
-}
-.bad {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #a22;
-	color: #fff
-}
-@media (max-width:800px){
+@media screen and (max-width:800px){
+    
     .nav__menu{
         display: block;
     }
@@ -549,7 +544,7 @@ body {
 
 }
 
-@media (max-width:600px){
+@media screen and (max-width:600px){
     .hero__title{
         font-size: 2rem;
     }
