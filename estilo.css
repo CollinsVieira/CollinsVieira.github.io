@@ -411,13 +411,34 @@ body {
     color: wheat;
 }
 .form-register .button{
-    width: 100%;
-    background-color: yellowgreen;
+    
+    width: 25%;
+    background-color: darkorchid;
     cursor: pointer;
-    padding: 12px;
+    padding: 10px;
     color: black;
     margin: 16px 0;
     font-size: 16px;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+.form-register .button.p{
+    text-decoration: none;
+    padding: 9px 20px 9px 20px;
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
 }
 @media (max-width:800px){
     .nav__menu{

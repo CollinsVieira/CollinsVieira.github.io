@@ -5,18 +5,21 @@
     <link rel="icon" href="logo.ico">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>IFCET-INSCRIPCION</title>
+    <title>IFCET</title>
 </head>
 <body class="bodyform">
     <section class="form-register">
+        <form name="form" action="registrar.php"method="post">
         <h4 class="title">FORMULARIO DE INSCRIPCION</h4>
-        <input class="control" type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres">
-        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
-        <input class="control" type="number" name="celular" id="celular" placeholder="Ingrese su número de celular">
-        <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
-        <input class="control" type="text" name="grado" id="grado" placeholder="Ingrese su grado">
-        <input class="control" type="number" name="dni" id="dni" placeholder="Ingrese su DNI">
-        <input class="button" type="submit" value="Enviar">
+        <input class="control" type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres"  required>
+        <input class="control" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
+        <input class="control" type="number" name="celular" id="celular" placeholder="Ingrese su número de celular" required>
+        <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+        <input class="control" type="text" name="grado" id="grado" placeholder="Ingrese su grado" required>
+        <input class="control" type="number" name="dni" id="dni" placeholder="Ingrese su DNI" required>
+        <input class="button" type="submit" value="Enviar"> <a href="./index.html" class="button p">Atras</a>
+    </form>
+    
     </section>
     
 </body>
