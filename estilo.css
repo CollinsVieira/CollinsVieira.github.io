@@ -120,7 +120,6 @@ body {
 .hero__title{
     color: whitesmoke;
 	font-size: 3rem;
-<<<<<<< Updated upstream
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
     
@@ -131,14 +130,6 @@ body {
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
     
-=======
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-}
-.hero__paragraph{
-    color: whitesmoke;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-	margin-bottom: 20px;
->>>>>>> Stashed changes
 }
 .about__main{
 	padding-top: 80px;
