@@ -57,6 +57,10 @@ body {
 	background-size: cover;
 	z-index: -100;
 }
+.price__element:hover{
+    width: 400px;
+    height: 450px;
+}
 .p1{
     width: 10%;
 	display: grid;
@@ -241,6 +245,7 @@ body {
     --bg-cta: #fff;
     --color-cta: #5454D4;
     --color-items: #696871;
+    transition: all 1s;
 }
 .price__name{
 	color:var(--color-plan);
