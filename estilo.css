@@ -70,9 +70,12 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
+    position: sticky;
+    top: 0;
+    margin-top: 0;
 }
 .nav__title{
-	color: white;
+	color: blue;
 	display: inline;
 	font-weight: 300;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
@@ -84,6 +87,7 @@ body {
 	grid-auto-flow: column;
 	grid-auto-columns: max-content;
 	gap: 3em;
+
 }
 .nav__items{
 	list-style: none;
@@ -129,8 +133,6 @@ body {
 	font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-    
-    
 }
 .hero__paragraph{
 	margin-bottom: 10px;
