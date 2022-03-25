@@ -95,6 +95,8 @@ body {
 }
 .nav__items{
 	list-style: none;
+    font-size: 20px;
+    
 }
 .nav__links{
 	color: #fff;
@@ -489,6 +491,12 @@ body {
     .about__main{
         gap: 2em;
     }
+    .about__icon1{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        bottom: 5px;
+    }
 
     .about__icons:last-of-type{
         grid-column: 1/-1;
@@ -558,15 +566,30 @@ body {
 @media screen and (max-width:600px){
 
     .hero__title{
-        font-size: 2rem;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
     }
 
     .hero__paragraph{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
-
+    .cta{
+        margin-bottom: 10rem;
+    }
     .subtitle{
+        display: flex;
         font-size: 1.8rem;
+    }
+    .about__paragraph{
+        position: relative;
+        top: 0.1rem;
+    }
+    .p1{
+        position: relative;
+        top: 8rem;
+    }
+    .about__icon{
+        display: none;
     }
 
     .price__element{
