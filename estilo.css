@@ -141,6 +141,7 @@ body {
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 .hero__paragraph{
+    font-size: 1.5rem;
 	margin-bottom: 10px;
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
@@ -163,6 +164,7 @@ body {
 	text-decoration: none;
 	padding: 13px 30px;
 	border-radius: 20px;
+    font-size: 1.3rem;
     
 }
 .info{
