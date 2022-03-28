@@ -27,6 +27,22 @@ body {
 	height: 200px;
     display: grid;
 }
+
+.price__element:hover{
+    width: 400px;
+    height: 450px;
+}
+.footer__img:hover{
+    width: 50px;
+    height: 50px;
+}
+.p1{
+    width: 10%;
+	display: grid;
+    position: relative;
+    left: 160px;
+    top: 68px;
+}
 .hero{
 	width: 100%;
 	height: 100vh;
@@ -53,80 +69,47 @@ body {
 	background-size: cover;
 	z-index: -100;
 }
-.price__element:hover{
-    width: 400px;
-    height: 450px;
+/* NAV ////////////////////////*/
+.nav__responsive-ul{
+    display: none;
 }
-.footer__img:hover{
-    width: 50px;
-    height: 50px;
-}
-.p1{
-    width: 10%;
-	display: grid;
-    position: relative;
-    left: 160px;
-    top: 68px;
-}
-/* NAV*/
-.nav{
-	--padding-container:0;
-	height: 100%;
-	display: flex;
-	align-items: center;
-    position: sticky;
-    top: 0;
-    margin-top: 0;
-}
-.nav__title{
-	color: blue;
-	display: inline;
-	font-weight: 300;
-    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-}
-.nav__link{
-	margin-left: auto;
-	padding: 0;
-	display: grid;
-	grid-auto-flow: column;
-	grid-auto-columns: max-content;
-	gap: 3em;
-
+.menu{
+    background-color: transparent;
+    height: 40px;
+    font-size: 1.4rem;
+    text-align: right;
+    position: fixed;
 }
 .nav__items{
-	list-style: none;
-    font-size: 20px;
+    display: inline-block; /* //Para que se pongan uno al lado del otro */
+    padding: 10px;
+    padding-right: 50px;
     
+
 }
 .nav__links{
-	color: #fff;
-	text-decoration: none;
-    display: grid;
-    
+    color: #fff;
+    text-decoration: none;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+.nav__responsive-button{
+    float: right;
+    font-size: 20px;
+    padding: 6px 20px;
+}
+@media  screen and (max-width: 500px){
+    .nav__ul{
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+    }
+}
 
-}
-.nav__menu{
-	margin-left: auto;
-	cursor: pointer;
-	display: none;
-}
-.nav__img{
-	background-color: #2091F9;
-	opacity: 10%;
-	display: block;
-	width: 30px;
-}
-.nav__close{
-	background-color: #2091F9;
-	opacity: 10%;
-	width: 30px;
-	display: var(--show, none);
-}
 /*HERO CONTAINER*/
 
-.hero__container{
+.portada__container{
 	max-width: 800px;
-	--padding-container: 0;
 	display: grid;
 	grid-auto-rows: max-content;
 	align-content: center;
@@ -134,19 +117,20 @@ body {
 	padding-bottom: 100px;
 	text-align: center;
 }
-.hero__title{
+.portada{
     color: whitesmoke;
 	font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
-.hero__paragraph{
+.segundo__paragraph{
     font-size: 1.5rem;
 	margin-bottom: 10px;
     color: white;
     text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
     
 }
+/* //////////////////////////////// */
 .about__main{
 	padding-top: 80px;
 	display: grid;
@@ -451,40 +435,6 @@ body {
     padding: 9px 20px 9px 20px;
 }
 @media screen and (max-width:800px){
-    .nav__menu{
-        display: block;
-    }
-
-    .nav__link--menu{
-        position: fixed;
-        background-color: #000;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 100;
-        opacity: 0;
-        pointer-events: none;
-        transition: .7s opacity;
-    }
-
-    .nav__link--show{
-        --show: block;
-        opacity:1 ;
-        pointer-events: unset;
-    }
-
-    .nav__close{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        width: 30px;
-        cursor: pointer;
-    }
 
     .hero__title{
         font-size: 2.5rem;
